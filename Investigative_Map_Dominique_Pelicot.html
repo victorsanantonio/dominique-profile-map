@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ecbe85145f46ec89bb3116126fe4f16e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ecbe85145f46ec89bb3116126fe4f16e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ecbe85145f46ec89bb3116126fe4f16e = L.map(
+                "map_ecbe85145f46ec89bb3116126fe4f16e",
+                {
+                    center: [46.603354, 1.888334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_589d9b64bcef4203ee35dacefbd09614 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ecbe85145f46ec89bb3116126fe4f16e);
+        
+    
+            var marker_9312e002389f41cddb20e7221a27840f = L.marker(
+                [48.8809, 2.3948],
+                {}
+            ).addTo(map_ecbe85145f46ec89bb3116126fe4f16e);
+        
+    
+            var icon_2a8dde0ae55037ff5d5dadda82dacde2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9312e002389f41cddb20e7221a27840f.setIcon(icon_2a8dde0ae55037ff5d5dadda82dacde2);
+        
+    
+        var popup_f1af6b9c1f0e88d4d93e7e7a9e953829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7b6123f04e9ec9fc85bd843bbbcc4ca = $(`<div id="html_b7b6123f04e9ec9fc85bd843bbbcc4ca" style="width: 100.0%; height: 100.0%;"><b>Paris, 19e Arr., Rue Manin</b></div>`)[0];
+            popup_f1af6b9c1f0e88d4d93e7e7a9e953829.setContent(html_b7b6123f04e9ec9fc85bd843bbbcc4ca);
+        
+
+        marker_9312e002389f41cddb20e7221a27840f.bindPopup(popup_f1af6b9c1f0e88d4d93e7e7a9e953829)
+        ;
+
+        
+    
+    
+            var marker_dae9c6c0f7b92995a6dc39ae769ad131 = L.marker(
+                [48.9387, 2.6076],
+                {}
+            ).addTo(map_ecbe85145f46ec89bb3116126fe4f16e);
+        
+    
+            var icon_21974c47aebd84c9b76c464938d263b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dae9c6c0f7b92995a6dc39ae769ad131.setIcon(icon_21974c47aebd84c9b76c464938d263b0);
+        
+    
+        var popup_b2fe9d6f939f215d68230fd0e6fdcd8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86cbceba9864feaecbc0980bb1c13648 = $(`<div id="html_86cbceba9864feaecbc0980bb1c13648" style="width: 100.0%; height: 100.0%;"><b>Villeparisis</b></div>`)[0];
+            popup_b2fe9d6f939f215d68230fd0e6fdcd8e.setContent(html_86cbceba9864feaecbc0980bb1c13648);
+        
+
+        marker_dae9c6c0f7b92995a6dc39ae769ad131.bindPopup(popup_b2fe9d6f939f215d68230fd0e6fdcd8e)
+        ;
+
+        
+    
+    
+            var marker_43840df9853305de646ac4cdccd01751 = L.marker(
+                [44.0565, 5.1237],
+                {}
+            ).addTo(map_ecbe85145f46ec89bb3116126fe4f16e);
+        
+    
+            var icon_29cb2a424fc6b44d7a1207c837111f7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43840df9853305de646ac4cdccd01751.setIcon(icon_29cb2a424fc6b44d7a1207c837111f7e);
+        
+    
+        var popup_ebead81b7f32e6e434abb250cca4704a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f71565464b7e8fafb6884c757386936d = $(`<div id="html_f71565464b7e8fafb6884c757386936d" style="width: 100.0%; height: 100.0%;"><b>Mazan, Vaucluse</b></div>`)[0];
+            popup_ebead81b7f32e6e434abb250cca4704a.setContent(html_f71565464b7e8fafb6884c757386936d);
+        
+
+        marker_43840df9853305de646ac4cdccd01751.bindPopup(popup_ebead81b7f32e6e434abb250cca4704a)
+        ;
+
+        
+    
+    
+            var marker_e38790c672cddeeccdcd0f639a0ff625 = L.marker(
+                [44.0569, 5.0486],
+                {}
+            ).addTo(map_ecbe85145f46ec89bb3116126fe4f16e);
+        
+    
+            var icon_bb64b4ca8405554a4eb588a7214df299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e38790c672cddeeccdcd0f639a0ff625.setIcon(icon_bb64b4ca8405554a4eb588a7214df299);
+        
+    
+        var popup_700e17a03e627597d4532fe4ce8d6a1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a094db05af412d0c52e07d28a63d43bd = $(`<div id="html_a094db05af412d0c52e07d28a63d43bd" style="width: 100.0%; height: 100.0%;"><b>Supermarché Leclerc, Carpentras</b></div>`)[0];
+            popup_700e17a03e627597d4532fe4ce8d6a1d.setContent(html_a094db05af412d0c52e07d28a63d43bd);
+        
+
+        marker_e38790c672cddeeccdcd0f639a0ff625.bindPopup(popup_700e17a03e627597d4532fe4ce8d6a1d)
+        ;
+
+        
+    
+</script>
+</html>
